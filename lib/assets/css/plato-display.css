@@ -7,8 +7,9 @@ body {
 .reportBlock {
   background: #34495e;
   color: #ecf0f1;
-  height: 300px;
+  min-height: 300px;
   position: relative;
+  word-break: break-all;
 }
 
 .chart {
