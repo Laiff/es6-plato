@@ -32,6 +32,11 @@
     "desc": "Recursively search directories",
     "type": "Boolean"
   },
+  "s": {
+    "long": "static",
+    "desc": "Generate static index (excluding time series)",
+    "type": "Boolean"
+  },
   "l": {
     "long": "jshint",
     "desc": "Specify a jshintrc file for JSHint linting",

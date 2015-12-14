@@ -33,6 +33,8 @@ Usage : plato [options] -d <output_dir> <input files>
       The output directory
   -r, --recurse
       Recursively search directories
+  -s, --static
+      Render a static index page (excluding time series)
   -l, --jshint : String
       Specify a jshintrc file for JSHint linting
   -t, --title : String
