@@ -1,0 +1,22 @@
+<div class="chart chart__static">
+  <div class="chart__legend">
+    <div class="legend__yaxis"><span class="legend__label"><%= chart.ymax %></span></div>
+    <div class="legend__yaxis"><span class="legend__label"><%= 0.75 * chart.ymax %></span></div>
+    <div class="legend__yaxis"><span class="legend__label"><%= 0.5 * chart.ymax %></span></div>
+    <div class="legend__yaxis"><span class="legend__label"><%= 0.25 * chart.ymax %></span></div>
+    <div class="legend__yaxis"><span class="legend__label">0</span></div>
+  </div>
+  <% chart.data.forEach(function(rep){ %>
+  <% var normalizedValue = (rep.value/chart.ymax) * 100; %>
+  <a class="bar" href="<%= rep.link %>">
+    <div class="bar__inner"
+         style="height: <%= normalizedValue %>%;
+               top: <%= 100 - normalizedValue %>%;
+               background: <%= chart.color %>;"></div>
+    <div class="label">
+      <h5 class="label__file"> <%= rep.label %></h5>
+      <h5 class="label__value"> <%= chart.label%>: <%= rep.value %></h5>
+    </div>
+  </a>
+  <% }); %>
+</div>
