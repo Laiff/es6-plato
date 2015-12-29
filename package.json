@@ -1,13 +1,14 @@
 {
   "name": "plato",
   "description": "JavaScript source analysis and visualizer",
-  "version": "1.3.0",
-  "homepage": "https://github.com/es-analysis/plato",
+  "version": "1.4.0",
+  "homepage": "https://github.com/Laiff/plato",
   "author": {
     "name": "Jarrod Overson",
     "email": "jsoverson@gmail.com",
     "url": "http://jarrodoverson.com/"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/es-analysis/plato.git"
@@ -48,11 +49,12 @@
     "analyze"
   ],
   "dependencies": {
-    "escomplex-js": "git+https://github.com/IOKI/escomplex-js.git",
-    "posix-getopt": "~1.1.0",
-    "lodash": "~2.4.1",
+    "escomplex-js": "git+https://github.com/Laiff/escomplex-js.git",
+    "eslint": "^1.10.3",
     "fs-extra": "~0.15.0",
+    "glob": "~4.3.5",
+    "lodash": "~2.4.1",
     "jshint": "^2.7.0",
-    "glob": "~4.3.5"
+    "posix-getopt": "~1.1.0"
   }
 }
