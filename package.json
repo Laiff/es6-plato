@@ -1,5 +1,5 @@
 {
-  "name": "plato",
+  "name": "es6-plato",
   "description": "JavaScript source analysis and visualizer",
   "version": "1.4.0",
   "homepage": "https://github.com/Laiff/plato",
@@ -11,16 +11,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/es-analysis/plato.git"
+    "url": "git://github.com/Laiff/plato.git"
   },
   "bugs": {
-    "url": "https://github.com/es-analysis/plato/issues"
+    "url": "https://github.com/Laiff/plato/issues"
   },
   "bin": "bin/plato",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/es-analysis/plato/blob/master/LICENSE-MIT"
+      "url": "https://github.com/Laiff/plato/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/plato",
@@ -53,7 +53,7 @@
     "eslint": "^1.10.3",
     "fs-extra": "~0.15.0",
     "glob": "~4.3.5",
-    "lodash": "~2.4.1",
+    "lodash": "3.10.1",
     "jshint": "^2.7.0",
     "posix-getopt": "~1.1.0"
   }
